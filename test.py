@@ -1,2 +1,3 @@
-name = input("Enter your name: ")
-print ("\nHello, ", name)
+import time
+timestamp = time.strftime ('%H:%M:%S')
+print (timestamp)
