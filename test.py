@@ -1,14 +1,13 @@
-import time
-timestamp = time.strftime ('%H:%M:%S')
-print (timestamp)
+x = 4
+match x:
+    case 0:
+        print("X == 0")
+    
+    case 4 if x % 2 == 0:
+        print ("x % 2 == 0 and x is 4")
 
-hour = int(time.strftime ('%H'))
+    case _ if x < 10:
+        print ("x<10")
 
-if (hour >= 0 and hour < 12):
-    print ("Good Morning")
-
-elif (hour >=12 and hour < 18):
-      print ("Good Afternoon")
-
-else:
-     print ("Good Evening")
+    case _:
+        print (x)
