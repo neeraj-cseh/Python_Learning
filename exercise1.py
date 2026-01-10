@@ -4,13 +4,13 @@ print ("\nAvailable Operations: \n1.Addition \n2.Subtraction \n3.Multiplication"
 op = int(input("\nEnter the required operation: "))
 
 match op:
-    case _ if op == 1:
+    case 1:
         print("The output is: ", a+b)
 
-    case _ if op == 2:
+    case 2:
         print("The output is: ", a-b)
 
-    case _ if op == 3:
+    case 3:
         print("The output is: ", a*b)
 
     case _:
