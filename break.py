@@ -5,8 +5,8 @@
 
 # print ("5th table is completed")
 
-for i in range (12):
-    if (i == 10):
-        print("Skip this iteration")
-        continue
-    print ("5X", i, "=", 5*i)
+# for i in range (12):
+#     if (i == 10):
+#         print("Skip this iteration")
+#         continue
+#     print ("5X", i, "=", 5*i)
