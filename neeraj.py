@@ -1,0 +1,3 @@
+import mala
+
+mala.welcome()
