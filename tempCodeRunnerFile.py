@@ -1,2 +1,3 @@
-x = (1, 2, 3, 4)
-print (type(x), x)
+x = {1, 2, 3, 4, 5}
+y = {1, 2, 5}
+print (x.issubset(y))
