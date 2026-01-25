@@ -13,9 +13,9 @@
 # a = Private()
 # print(a._Private__name)
 
-class Protected:
-    def __init__(self):
-        self._name = "Neeraj"
+# class Protected:
+#     def __init__(self):
+#         self._name = "Neeraj"
 
-a = Protected()
-print(a._name)
+# a = Protected()
+# print(a._name)
