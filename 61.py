@@ -7,12 +7,16 @@ class Parent:
         print(f"{self.name} is {self.age} years old.")
     
 class Child(Parent):
-    def lang(self):
-        print(f"{self.name} can speak multiple languages.")
+    def __init__(self, name, age, lang):
+        super().__init__(name, age)
+        self.lang = lang
+
+    def speak(self):
+        print(f"{self.name} can speak {self.lang}.")
 
 p1 = Parent("Neeraj", 25)
 p1.info()
 
-c1 = Child("Srinivas", 15)
+c1 = Child("Srinivas", 15, "Telugu")
 c1.info()
-c1.lang()
+c1.speak()
